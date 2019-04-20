@@ -6,7 +6,7 @@ app=Flask(__name__)
 #error handler for wrong URl
 @app.errorhandler(404)
 def page_not_found(e):
-    return "check your url and try again"
+    return "CHECK YOUR URL"
 
 #routing for displaying required output
 @app.route('/api/pokemon/')
