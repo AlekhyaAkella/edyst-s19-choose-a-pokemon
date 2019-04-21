@@ -1,1 +1,93 @@
+.pokemon{
+  
+        display: flex;
+ 
+        justify-content: space-between;
+
+        background-color: rgb(207, 213, 218);
+    
+	      margin: 5% 10% auto 10%;
+  
+        border: rgb(207, 213, 218);
+ 
+        border-width: 50px;
+    
+	      border-style: solid;
+    
+	      border-radius: 20px;
+    
+   
+}
+
+
+/*sets the position of images*/
+img{
+ 
+   	   padding-left: 18%;
+  
+        padding-right: 18%;
+   
+        padding-top: 25%;
+   
+        padding-bottom: 20%;
+
+}
+
+body
+{
+  
+  padding-top: 5%;
+
+}
+
+
+.card1
+{
+   
+	       border: 2px solid green;
+ 
+         box-sizing: border-box;
+    
+         flex-basis: 20%;
+   
+         background-color: lightgreen;
+   
+         border-radius: 15px;
+
+}
+
+
+.card2
+
+{
+    
+	      border: 2px solid palevioletred;
+ 
+        box-sizing: border-box;
+    
+        flex-basis: 20%;
+    
+        background-color: pink;
+   
+        border-radius: 15px;
+
+}
+
+
+.card3
+
+{
+   
+	       border: 2px solid steelblue;
+ 
+         box-sizing: border-box;
+  
+         flex-basis: 20%;
+   
+         background-color: skyBlue;
+ 
+         border-radius: 15px;
+
+}
+
 
